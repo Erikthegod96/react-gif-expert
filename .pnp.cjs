@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.2"],\
           ["@vitejs/plugin-react", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:4.3.4"],\
           ["globals", "npm:15.13.0"],\
+          ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:18.3.1"],\
           ["vite", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:6.0.3"]\
@@ -1272,6 +1273,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.2"],\
           ["@vitejs/plugin-react", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:4.3.4"],\
           ["globals", "npm:15.13.0"],\
+          ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:18.3.1"],\
           ["vite", "virtual:2ed97d6b1565f179891a7f682141272235c38552784525d8cb50e472ce3312eca7651892b96d75d5edf796749a3d85a27ff7c3d1c1d1a9d055a4a4e4d768f274#npm:6.0.3"]\
@@ -1664,6 +1666,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["object-assign", [\
+      ["npm:4.1.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/object-assign-npm-4.1.1-1004ad6dec-10c0.zip/node_modules/object-assign/",\
+        "packageDependencies": [\
+          ["object-assign", "npm:4.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["p-map", [\
       ["npm:7.0.3", {\
         "packageLocation": "../../../.yarn/berry/cache/p-map-npm-7.0.3-93bbec0d8c-10c0.zip/node_modules/p-map/",\
@@ -1743,6 +1754,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["prop-types", [\
+      ["npm:15.8.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/prop-types-npm-15.8.1-17c71ee7ee-10c0.zip/node_modules/prop-types/",\
+        "packageDependencies": [\
+          ["prop-types", "npm:15.8.1"],\
+          ["loose-envify", "npm:1.4.0"],\
+          ["object-assign", "npm:4.1.1"],\
+          ["react-is", "npm:16.13.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react", [\
       ["npm:18.3.1", {\
         "packageLocation": "../../../.yarn/berry/cache/react-npm-18.3.1-af38f3c1ae-10c0.zip/node_modules/react/",\
@@ -1773,6 +1796,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/react",\
           "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-is", [\
+      ["npm:16.13.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/react-is-npm-16.13.1-a9b9382b4f-10c0.zip/node_modules/react-is/",\
+        "packageDependencies": [\
+          ["react-is", "npm:16.13.1"]\
         ],\
         "linkType": "HARD"\
       }]\
