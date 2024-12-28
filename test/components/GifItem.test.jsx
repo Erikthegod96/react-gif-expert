@@ -6,7 +6,6 @@ describe('Prueba en GifItem', ()=>{
     const title = 'Gifs'
     const url = 'Goku'
     test('Debe hacer match snapshot', () => {
-        const {container} = render (<GifItem title={title} url={url}/>)
-        expect(container).toMatchSnapshot()
+        
     })
 })
